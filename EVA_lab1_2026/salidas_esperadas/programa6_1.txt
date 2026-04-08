@@ -1,0 +1,22 @@
+<?xml version="1,0" encoding="utf-8"?>
+<BanTeng:EstadoDeCuenta xmlns:BanTeng="BanTeng-EstadoDeCuenta">
+  <BanTeng:Saldo Cuenta="APELLIDO1 APELLIDO2, NOMBRE1 NOMBRE2" Moneda="UYU" TipoCuenta="12345678 - CUENTAS CORRIENTES - 0 - $" />
+  <BanTeng:Movimientos>
+	<BanTeng:Desde>2026-01-30</BanTeng:Desde>
+    <BanTeng:Hasta>2026-03-31</BanTeng:Hasta>
+	<BanTeng:Movimiento TipoMov="C" Importe="418,70" Fecha="2026-03-16" Concepto="Factura 21" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="C" Importe="2144,10" Fecha="2026-03-07" Concepto="Factura 3" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="D" Importe="5600" Fecha="2026-02-26" Concepto="debito" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="D" Importe="330" Fecha="2026-02-26" Concepto="Transferencia" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="D" Importe="1500" Fecha="2026-02-25" Concepto="Sin concepto" Referencia="0" Saldo="" />
+        <BanTeng:Movimiento TipoMov="D" Importe="330" Fecha="2026-02-24" Concepto="Transferencia" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="C" Importe="680,22" Fecha="2026-02-23" Concepto="Factura 121" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="D" Importe="11500" Fecha="2026-02-19" Concepto="Transferencia en plaza 1" Referencia="0" Saldo=""/>
+    <BanTeng:Movimiento TipoMov="D" Importe="11500" Fecha="2026-02-18" Concepto="Sin concepto" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="C" Importe="495" Fecha="2026-02-18" Concepto="Factura 221" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="C" Importe="6078,22" Fecha="2026-01-30" Concepto="Sin concepto" Referencia="0" Saldo="" />
+    <BanTeng:Movimiento TipoMov="C" Importe="1100,92" Fecha="2026-01-30" Concepto="Factura 21" Referencia="0" Saldo=""/>
+    <BanTeng:Movimiento TipoMov="D" Importe="7468,8" Fecha="2026-01-30" Concepto="Sin concepto" Referencia="0" Saldo=""/>
+    <BanTeng:TotalMovimientos>13</BanTeng:TotalMovimientos>
+  </BanTeng:Movimientos>
+</BanTeng:EstadoDeCuenta>

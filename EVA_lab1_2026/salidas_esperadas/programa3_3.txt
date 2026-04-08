@@ -1,0 +1,4 @@
+Cant: 1 |Desc: Servicio técnico básico  {N*A-001} | 999,99 c/u |Total:  999,99
+Cant: 2 |Desc: ÍTEMS*4455*ZXCV<> | 210,70 c/u |Total:  210,70
+Cant: 3 |Desc: Ajuste manual  \ “sistema ” | 320,00 c/u |Total:  320,00
+Cant: 5 |Desc: Pruebas | OK | 300,00 c/u |Total:  300,00
