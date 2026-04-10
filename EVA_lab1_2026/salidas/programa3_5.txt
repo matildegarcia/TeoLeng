@@ -1,0 +1,8 @@
+Cant: 1 |Desc: Cobro <Servicio>123</Servicio> | 39,20 c/u |Total:  392,00
+Cant: 1 |Desc: Servicio Asociados ‘{_501/212_}’; | 225,00 c/u |Total:  225,00
+Cant: 5 |Desc: Ajuste \**manual** | 202,00 c/u |Total:  1010,00
+Cant: 1 |Desc: Cuadros de pie de 11” x 17” | 303,00 c/u |Total:  303,00
+Cant: 2 |Desc: ITEMS*1122*ALWE | 110,25 c/u |Total:  220,50
+Cant: 3 |Desc: Cuadros de pie de 5” x 7” | 100,00 c/u |Total:  300,00
+Cant: 1 |Desc: Combo3 | 85,50 c/u |Total:  85,50
+Cant: 20 |Desc: ÍTMES**122121*ALW | 5,00 c/u |Total:  100,00

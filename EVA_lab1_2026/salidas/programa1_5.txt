@@ -1,0 +1,50 @@
+ 
+ 
+FACTURA  
+ 
+FECHA:   
+22/02/2026   
+ 
+N.º DE FACTURA   
+5 
+ 
+ID. DE CLIENTE:   
+ABC12345  
+PARA:   Anjali Chaturvedi   
+Fotografía de marco adicional   
+89 Pacific Ave   
+San Francisco, CA   
+123 -456 -7890   
+ 
+ 
+ 
+VENDEDOR   TRABAJO   CONDICIONES 
+DE PAGO   
+FECHA DE 
+VENCIMIENTO   
+Óscar Martínez   Ventas   Pago a la recepción   20/05/2027  
+ 
+CANT.   DESCRIPCIÓN   PRECIO POR 
+UNIDAD   
+TOTAL DE 
+LÍNEA   
+1 Cobro <Servicio>123</Servicio>  39,20  392,00  
+1 Servicio Asociados ‘{_501/212_}’;  225,00  225,00  
+5 Ajuste \**manual**  202,00  1010,00  
+1 Cuadros de pie de 11” x 17”  303,00  303,00  
+2 ITEMS*1122*ALWE  110,25  220,50  
+3 Cuadros de pie de 5” x 7”  100,00  300,00  
+1 Combo3  85,50  85,50  
+20 ÍTMES**122121*ALW  5,00  100,00  
+    
+    
+    
+    
+  SUBTOTAL   2636,00   
+  TOTAL CON 
+IMPUESTOS   3216,00   
+  DÉBITO 
+BANCARIO   3210,92   
+TODOS LOS CHEQUES SE EXTENDERÁN A NOMBRE DE  CREATE & CO.  
+¡Gracias por su confianza!   
+ CREATE & CO.  123 MAIN ST.  | SEATTLE, WA 78910  | PHONE:  111 -222 -3333  | FAX:  111 -222 -3334  

@@ -1,0 +1,157 @@
+LABORATORIO REGEX - GUÍA TEÓRICA
+
+1. ENFOQUE GENERAL
+El laboratorio consiste en procesar texto (PDF y XML) usando expresiones regulares.
+No se trata de programar lógica tradicional, sino de:
+- Identificar patrones
+- Extraer información
+- Reemplazar o eliminar partes del texto
+
+Pensar siempre en términos de:
+“¿Qué patrón tiene esto?” en lugar de “¿cómo lo recorro?”
+
+--------------------------------------------------
+
+2. EXPRESIONES REGULARES (REGEX)
+
+Una regex es una forma de describir patrones de texto.
+
+Ejemplo:
+Fecha: 2026-03-16
+Regex: \d{4}-\d{2}-\d{2}
+
+--------------------------------------------------
+
+3. COMPONENTES BÁSICOS
+
+Clases de caracteres:
+\d  → dígito
+\D  → no dígito
+\w  → alfanumérico
+\W  → no alfanumérico
+\s  → espacio
+\S  → no espacio
+
+Cuantificadores:
+*   → 0 o más
++   → 1 o más
+?   → opcional
+{n} → exacto
+{n,m} → rango
+
+Agrupación:
+(...) → agrupa y permite extraer partes
+
+Alternativa:
+a|b → a o b
+
+Clases personalizadas:
+[abc] → uno de esos
+[a-z] → rango
+
+Negación:
+[^>] → cualquier cosa excepto >
+
+--------------------------------------------------
+
+4. FUNCIONES DEL MÓDULO re
+
+re.search → primera coincidencia
+re.findall → todas las coincidencias
+re.sub → reemplazo de texto
+
+--------------------------------------------------
+
+5. CONCEPTOS CLAVE
+
+Greedy vs Non-Greedy:
+.*   → toma todo (puede romper cosas)
+.*?  → toma lo mínimo (usar en XML)
+
+Multilínea:
+re.DOTALL → permite que . incluya saltos de línea
+
+Grupos:
+Permiten extraer partes específicas del match
+
+--------------------------------------------------
+
+6. TRABAJO CON XML
+
+El XML se trata como texto plano.
+
+Ejemplo:
+Importe="3210,92"
+Fecha="2026-02-25"
+
+Se deben construir patrones que encuentren:
+- atributos
+- nodos completos
+
+Para eliminar:
+Eliminar el bloque completo del nodo, no solo partes.
+
+--------------------------------------------------
+
+7. TRABAJO CON PDF
+
+Se convierte a texto plano.
+
+Buscar:
+- fechas
+- montos
+- líneas de items
+
+Usar findall para múltiples resultados.
+
+--------------------------------------------------
+
+8. ESTRATEGIA PARA RESOLVER
+
+1. Mirar el texto real
+2. Detectar el patrón
+3. Escribir una regex
+4. Probar con ejemplos chicos
+5. Ajustar
+
+--------------------------------------------------
+
+9. COSAS IMPORTANTES A TENER EN CUENTA
+
+- Cuidado con espacios (\s*)
+- Números con coma (ej: 3210,92)
+- Fechas en distintos formatos
+- Uso correcto de grupos
+- Evitar patrones demasiado generales
+- Probar regex paso a paso
+
+--------------------------------------------------
+
+10. ERRORES COMUNES
+
+- Usar .* sin control
+- No usar non-greedy en XML
+- No contemplar espacios
+- No agrupar correctamente
+- Buscar cosas demasiado amplias
+
+--------------------------------------------------
+
+11. CLAVE DEL LAB
+
+No usar lógica tradicional.
+Todo se resuelve con:
+- búsqueda de patrones
+- extracción
+- reemplazo
+
+Pensar siempre:
+“¿Qué forma tiene esto en texto?”
+
+--------------------------------------------------
+
+12. CONSEJO FINAL
+
+Construir regex de a partes.
+Primero algo simple, luego hacerlo más preciso.
+Probar siempre con ejemplos reales antes de integrar.

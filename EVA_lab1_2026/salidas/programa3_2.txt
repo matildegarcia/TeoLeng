@@ -1,0 +1,5 @@
+Cant: 1 |Desc: Combo [NO USAR] | 2500,00 c/u |Total:  2500,00
+Cant: 50 |Desc: ÍTEMS*1122*ALWE | 0,70 c/u |Total:  35,00
+Cant: 10 |Desc: Cuadros de pie de 5" x 7" | 10,10 c/u |Total:  101,00
+Cant: 5 |Desc: Servicio  {X-123} validación | 300,00 c/u |Total:  1500,00
+Cant: 1 |Desc: Cargos (25%) sobre servicio  {X-123} | 75,00 c/u |Total:  75,00
