@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
+from programa1 import programa1
 
 def programa3(RutaFactura):
     
-    '''
-    SU CÓDIGO
+    texto = programa1(RutaFactura)
+
+    patron = r'(\d+)\s+([^\n]+?)\s+(\d+,\d{2})\s+(\d+,\d{2})'
+    coincidencias = re.findall(patron, texto)
     
-    
-    '''
-    
-    res=f"Cant: 10 |Desc: PRUEBA | 10,10 c/u |Total: 101\n"
-    
-    
+    res = ""
+    for cant, desc, precio, total in coincidencias:
+        res += f"Cant: {cant} |Desc: {desc} | {precio} c/u |Total:  {total}\n"
     return res
 
 if __name__ == '__main__':
