@@ -1,4 +1,4 @@
-Cant: 1 |Desc: Servicio tÈcnico b·sico  {N*A-001} | 999,99 c/u |Total:  999,99
-Cant: 2 |Desc: ÕTEMS*4455*ZXCV<> | 210,70 c/u |Total:  210,70
-Cant: 3 |Desc: Ajuste manual  \ ìsistema î | 320,00 c/u |Total:  320,00
+Cant: 1 |Desc: Servicio t√©cnico b√°sico  {N*A-001} | 999,99 c/u |Total:  999,99
+Cant: 2 |Desc: √çTEMS*4455*ZXCV<> | 210,70 c/u |Total:  210,70
+Cant: 3 |Desc: Ajuste manual  \ ‚Äúsistema ‚Äù | 320,00 c/u |Total:  320,00
 Cant: 5 |Desc: Pruebas | OK | 300,00 c/u |Total:  300,00

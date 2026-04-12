@@ -7,6 +7,8 @@ def programa1(RutaPdf):
     reader = PdfReader(RutaPdf)
     page = reader.pages[0]
     text = page.extract_text()
+    text = re.sub(r'[ \t]+$', '', text, flags=re.MULTILINE)
+    text += '\n'
     return text
 
 

@@ -1,8 +1,8 @@
 Cant: 1 |Desc: Cobro <Servicio>123</Servicio> | 39,20 c/u |Total:  392,00
-Cant: 1 |Desc: Servicio Asociados ë{_501/212_}í; | 225,00 c/u |Total:  225,00
+Cant: 1 |Desc: Servicio Asociados ‚Äò{_501/212_}‚Äô; | 225,00 c/u |Total:  225,00
 Cant: 5 |Desc: Ajuste \**manual** | 202,00 c/u |Total:  1010,00
-Cant: 1 |Desc: Cuadros de pie de 11î x 17î | 303,00 c/u |Total:  303,00
+Cant: 1 |Desc: Cuadros de pie de 11‚Äù x 17‚Äù | 303,00 c/u |Total:  303,00
 Cant: 2 |Desc: ITEMS*1122*ALWE | 110,25 c/u |Total:  220,50
-Cant: 3 |Desc: Cuadros de pie de 5î x 7î | 100,00 c/u |Total:  300,00
+Cant: 3 |Desc: Cuadros de pie de 5‚Äù x 7‚Äù | 100,00 c/u |Total:  300,00
 Cant: 1 |Desc: Combo3 | 85,50 c/u |Total:  85,50
-Cant: 20 |Desc: ÕTMES**122121*ALW | 5,00 c/u |Total:  100,00
+Cant: 20 |Desc: √çTMES**122121*ALW | 5,00 c/u |Total:  100,00
