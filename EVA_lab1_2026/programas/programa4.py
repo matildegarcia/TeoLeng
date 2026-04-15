@@ -3,7 +3,6 @@ import re
 import sys
 
 def programa4(RutaXML):
-   def programa4(RutaXML):
     with open(RutaXML, 'r', encoding='utf-8') as f:
         text = f.read()
     return text
