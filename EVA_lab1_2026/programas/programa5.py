@@ -2,13 +2,22 @@
 import re
 import sys
 
+from programa2 import programa2
+from programa4 import programa4
+
 def programa5(RutaPdf,RutaXML):
-    resultado = False
-    
-    '''
-    SU CÓDIGO
-    '''
-    
+    fecha, monto = programa2(RutaPdf)
+    xml_text = programa4(RutaXML)
+
+    pattern = (
+        r'<BanTeng:Movimiento\b' # busco exactamente esa cadena y \b nos asegura que Movimiento termine como palabra completa
+        r'(?=[^>]*\bFecha="' + re.escape(fecha) + r'")' # ?= lookahead positivo (mira hacia adelante sin consumir caracteres) y Fecha= busca ese Texto literal
+        r'(?=[^>]*\bImporte="' + re.escape(monto) + r'")' # lo mismo aplica aqui con monto
+        r'[^>]*/>'
+    )
+
+    resultado = re.search(pattern, xml_text) is not None #devuelve true si encuentra la ocurrencia o none en caso de no encontrarla
+
     if resultado:
         return(True)
     else:
